@@ -1,0 +1,21 @@
+function somarUSTs(string) {
+  let palavras = string.split(' ');
+  let soma = 0;
+
+  for (let i = 0; i < palavras.length; i++) {
+    if (palavras[i] === 'USTs') {
+      let numero = parseInt(palavras[i - 1]);
+
+      if (!isNaN(numero)) {
+        soma += numero;
+      }
+    }
+  }
+
+  return soma;
+}
+
+// Exemplo de uso
+let texto = 'Existem 3 USTs disponíveis e mais 2 USTs serão lançadas em breve.';
+let resultado = somarUSTs(texto);
+console.log(resultado);
