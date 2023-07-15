@@ -1,0 +1,3 @@
+Adicionar ao JSON que esta sendo geardo as propiedades: descriçao e value.
+Criar um compoenete de text area para montar o JSON como um texto.
+Agrupar por tipo e no titulo do tipo passar a soma de USTs geradas.
